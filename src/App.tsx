@@ -6,7 +6,7 @@ function App() {
     <>
       <header>
         <nav className='navbar navbar-expand-lg bg-danger bg-primary d-flex justify-content-between px-5 fs-4'>
-          <a href="" className='navbar-brand fs-2 text-border'><img src="src/assets/photo_2025-03-05_08-12-16.jpg" alt="" />My life</a>
+          <a href="" className='navbar-brand fs-2 text-border'><img src="https://images.ctfassets.net/pdf29us7flmy/2ZtlOujWNf4ztl5wbRnTpC/4a394c414c6a2e3f68749802e5e4d042/GettyImages-689291632_optimized.jpg" alt="" />My life</a>
           <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@ function App() {
           <div className="container">
             <h2 className='py-3'>My Projects</h2>
             <div className="row row-cols-1 row-cols-sm-1 row-cols-lg-3 row-cols-md-3 " >
-              <div className='card shadow'>
+              <div className='card shadow mb-2'>
                 <img src="https://i.ytimg.com/vi/G0jO8kUrg-I/maxresdefault.jpg" alt="" />
                 <div className="cadr-body">
                   <h3 className='car-title pt-3'>To-Do App</h3>
@@ -71,7 +71,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='card shadow'>
+              <div className='card shadow mb-2'>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXdXZIUHozC2mg05dvp0x7DBP4DnCUNR0DnQ&s" alt="" />
                 <div className="cadr-body">
                   <h3 className='car-title pt-3'>Weather App</h3>
@@ -79,7 +79,7 @@ function App() {
                 </div>
               </div>
 
-              <div className='card shadow'>
+              <div className='card shadow mb-2'>
                 <img src="https://cdn-icon.bluestacks.com/9TYfWJcE65BIe7Dw17CMr4xbm_k2buhw0oz8RYvGAO8EjiQuFdUZTEOoN8tUtlXqBw=s0" alt="" />
                 <div className="cadr-body">
                   <h3 className='car-title pt-3'>Color Changer</h3>
@@ -95,15 +95,10 @@ function App() {
       <footer id='Contact' className='bg-danger p-4'>
         <div className="container">
           <h5 className="text-center">Salom!Men Nurbekman Bu yerda mennig haqimda malumotlar bor va  quydagi ijtimoyi tarmoqlar orqali meni kuzatib boring: </h5>
-          <div className="text-center d-flex justify-content-center gap-3 ">
-            <p>&copy; 2025 Nurbek</p>
-            <p>Email: nurbek@example.com</p>
-            <p>GitHub: <a href="https://github.com/nurbek1212" target="_blank">nurbek1212</a></p>
-          </div>
-          <div className="text-center d-flex justify-content-center gap-3 ">
-            <i className="fa-brands fa-instagram"><a href="https://www.instagram.com/rayimberganov_nuroo7_official/profilecard/?igsh=MWgwbG93cmQ0Ymc4" className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
-            <i className="fa-brands fa-telegram"><a href="https://t.me/Xushnudbekivich_01" className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
-            <i className="fa-brands fa-facebook"><a href="https://www.facebook.com/share/17xCx6Tyb8/?mibextid=wwXIfr " className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
+          <div className="row row-cols-1 row-cols-sm-1 row-cols-lg-3 text-center   ">
+            <i className="col-2 fa-brands fa-instagram"><a href="https://www.instagram.com/rayimberganov_nuroo7_official/profilecard/?igsh=MWgwbG93cmQ0Ymc4" className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
+            <i className="col-2 fa-brands fa-telegram"><a href="https://t.me/Xushnudbekivich_01" className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
+            <i className="col-2 fa-brands fa-facebook"><a href="https://www.facebook.com/share/17xCx6Tyb8/?mibextid=wwXIfr " className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
 
           </div>
 
