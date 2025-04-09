@@ -63,27 +63,32 @@ function App() {
           <div className="container">
             <h2 className='py-3'>My Projects</h2>
             <div className="row row-cols-1 row-cols-sm-1 row-cols-lg-3 row-cols-md-3 " >
-              <div className='card shadow mb-2'>
-                <img src="https://i.ytimg.com/vi/G0jO8kUrg-I/maxresdefault.jpg" alt="" />
-                <div className="cadr-body">
-                  <h3 className='car-title pt-3'>To-Do App</h3>
-                  <p className='card-text py-3'>Vazifalarni qo‘shish va o‘chirish uchun oddiy web ilova. JavaScript bilan yozilgan.</p>
+              <div className="col">
+                <div className='card shadow mb-2'>
+                  <img src="https://i.ytimg.com/vi/G0jO8kUrg-I/maxresdefault.jpg" alt="" />
+                  <div className="cadr-body p-2">
+                    <h3 className='car-title pt-3'>To-Do App</h3>
+                    <p className='card-text py-3'>Vazifalarni qo‘shish va o‘chirish uchun oddiy web ilova. JavaScript bilan yozilgan.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <div className='card shadow mb-2'>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXdXZIUHozC2mg05dvp0x7DBP4DnCUNR0DnQ&s" alt="" />
+                  <div className="cadr-body p-2">
+                    <h3 className='car-title pt-3'>Weather App</h3>
+                    <p className='card-text py-3'>Ob-havo ma’lumotlarini Weather API orqali olish. Foydalanuvchi shahar nomini kiritadi.</p>
+                  </div>
                 </div>
               </div>
 
-              <div className='card shadow mb-2'>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXdXZIUHozC2mg05dvp0x7DBP4DnCUNR0DnQ&s" alt="" />
-                <div className="cadr-body">
-                  <h3 className='car-title pt-3'>Weather App</h3>
-                  <p className='card-text py-3'>Ob-havo ma’lumotlarini Weather API orqali olish. Foydalanuvchi shahar nomini kiritadi.</p>
-                </div>
-              </div>
-
-              <div className='card shadow mb-2'>
-                <img src="https://cdn-icon.bluestacks.com/9TYfWJcE65BIe7Dw17CMr4xbm_k2buhw0oz8RYvGAO8EjiQuFdUZTEOoN8tUtlXqBw=s0" alt="" />
-                <div className="cadr-body">
-                  <h3 className='car-title pt-3'>Color Changer</h3>
-                  <p className='card-text py-3'>Tugmani bosganda sahifaning fon rangi o‘zgaradi. Juda sodda va qiziqarli loyihadir.</p>
+              <div className="col">
+                <div className='card shadow mb-2'>
+                  <img src="https://cdn-icon.bluestacks.com/9TYfWJcE65BIe7Dw17CMr4xbm_k2buhw0oz8RYvGAO8EjiQuFdUZTEOoN8tUtlXqBw=s0" alt="" />
+                  <div className="cadr-body p-2">
+                    <h3 className='car-title pt-3'>Color Changer</h3>
+                    <p className='card-text py-3'>Tugmani bosganda sahifaning fon rangi o‘zgaradi. Juda sodda va qiziqarli loyihadir.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -92,18 +97,40 @@ function App() {
       </main>
       {/* footer Contact */}
 
-      <footer id='Contact' className='bg-danger p-4'>
-        <div className="container">
-          <h5 className="text-center">Salom!Men Nurbekman Bu yerda mennig haqimda malumotlar bor va  quydagi ijtimoyi tarmoqlar orqali meni kuzatib boring: </h5>
-          <div className="row row-cols-1 row-cols-sm-1 row-cols-lg-3 text-center   ">
-            <i className="col-2 fa-brands fa-instagram"><a href="https://www.instagram.com/rayimberganov_nuroo7_official/profilecard/?igsh=MWgwbG93cmQ0Ymc4" className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
-            <i className="col-2 fa-brands fa-telegram"><a href="https://t.me/Xushnudbekivich_01" className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
-            <i className="col-2 fa-brands fa-facebook"><a href="https://www.facebook.com/share/17xCx6Tyb8/?mibextid=wwXIfr " className='fw-bolder font-monospace'>rayimbergnov_nurbek</a></i>
+      <footer id="Contact" className="bg-danger p-4">
+  <div className="container">
+    <h5 className="text-center">
+      Salom! Men Nurbekman, bu yerda mening haqimda ma'lumotlar bor va quyidagi ijtimoiy tarmoqlar orqali meni kuzatib boring:
+    </h5>
+    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 text-center">
+      <div className="col mb-4">
+        <i className="fa-brands fa-instagram">
+          <a
+            href="https://www.instagram.com/rayimberganov_nuroo7_official/profilecard/?igsh=MWgwbG93cmQ0Ymc4"
+            className="fw-bolder font-monospace"
+          >
+            rayimbergnov_nurbek
+          </a>
+        </i>
+      </div>
+      <div className="col mb-4">
+        <i className="fa-brands fa-telegram ">
+          <a href="https://t.me/Xushnudbekivich_01" className="fw-bolder font-monospace">
+            rayimbergnov_nurbek
+          </a>
+        </i>
+      </div>
+      <div className="col mb-4">
+        <i className="fa-brands fa-facebook ">
+          <a href="https://www.facebook.com/share/17xCx6Tyb8/?mibextid=wwXIfr" className="fw-bolder font-monospace">
+            rayimbergnov_nurbek
+          </a>
+        </i>
+      </div>
+    </div>
+  </div>
+</footer>
 
-          </div>
-
-        </div>
-      </footer>
     </>
   )
 }
